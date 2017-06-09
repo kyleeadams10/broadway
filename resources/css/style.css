@@ -7,7 +7,7 @@ h1 {
 
 h2 {
   font-size 55px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-weight: lighter;
   font-family: 'Pacifico', cursive;
@@ -17,6 +17,13 @@ h3 {
   font-size: 14px;
   color: #ffffff;
   text-align: center;
+}
+
+h4 {
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
 }
 
 a:link, a:visited {
@@ -36,11 +43,18 @@ a:hover, a:active {
 }
 
 body {
-    background-color: black;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
+  background-color: #000000;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
 }
 
-hr {
-  width: 500px
+section {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.center {
+  padding: 5px;
+  display: block;
+  margin: auto;
 }
