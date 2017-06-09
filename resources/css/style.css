@@ -6,14 +6,41 @@ h1 {
 }
 
 h2 {
-  font-size 25px;
+  font-size 55px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Pacifico', cursive;
 }
 
 h3 {
   font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+  color: white;
 }
 
 body {
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+hr {
+  width: 500px
 }
