@@ -5,6 +5,14 @@ h1 {
     text-align: center;
 }
 
+h2 {
+  font-size 25px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
 body {
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
