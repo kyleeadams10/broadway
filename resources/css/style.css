@@ -40,6 +40,8 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: black;
   color: white;
+  opacity: 1.0;
+
 }
 
 body {
@@ -51,6 +53,13 @@ body {
 section {
   background-color: #ffffff;
   padding: 20px;
+}
+
+.image1 {
+  background-attachment: fixed;
+	background-image: url(../images/the-flatiron-building.png);
+	background-repeat: no-repeat;
+	visibility: visible;
 }
 
 .center {
